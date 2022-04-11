@@ -1,6 +1,6 @@
 package hr.fer.oop.homework_05.vehicles;
 
-public class Car extends Vehicle {
+public class Car extends Vehicle implements CargoVehicle, PassengerVehicle {
     private String carType;
     private int noOfSeats;
     private double cargoSpace;
@@ -39,5 +39,15 @@ public class Car extends Vehicle {
     @Override
     public String toString() {
         return super.toString() + ", carType=" + carType + ", noOfSeats=" + noOfSeats + ", cargoSpace=" + cargoSpace;
+    }
+
+    @Override
+    public double getMaxSpace() {
+        return cargoSpace;
+    }
+
+    @Override
+    public int getMaxPassengers() {
+        return noOfSeats;
     }
 }

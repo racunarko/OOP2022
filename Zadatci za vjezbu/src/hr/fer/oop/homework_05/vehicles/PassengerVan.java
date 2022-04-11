@@ -1,6 +1,6 @@
 package hr.fer.oop.homework_05.vehicles;
 
-public class PassengerVan extends Van {
+public class PassengerVan extends Van implements PassengerVehicle {
     private int noOfPassengers;
 
     public PassengerVan(String registrationNo, String model, double height, int noOfPassengers) {
@@ -19,5 +19,10 @@ public class PassengerVan extends Van {
     @Override
     public String toString() {
         return super.toString() + ", noOfPassengers=" + noOfPassengers;
+    }
+
+    @Override
+    public int getMaxPassengers() {
+        return noOfPassengers;
     }
 }

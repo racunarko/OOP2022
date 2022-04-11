@@ -1,6 +1,6 @@
 package hr.fer.oop.homework_05.vehicles;
 
-public class Limo extends Vehicle {
+public class Limo extends Vehicle implements PassengerVehicle {
     private double length;
     private int noOfSeats;
     private boolean sunRoof;
@@ -39,5 +39,10 @@ public class Limo extends Vehicle {
     @Override
     public String toString() {
         return super.toString() + ", legnth=" + length + ", noOfSeats=" + noOfSeats + ", sunRoof=" + sunRoof;
+    }
+
+    @Override
+    public int getMaxPassengers() {
+        return noOfSeats;
     }
 }

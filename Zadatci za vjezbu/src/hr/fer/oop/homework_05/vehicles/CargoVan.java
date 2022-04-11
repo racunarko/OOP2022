@@ -1,6 +1,6 @@
 package hr.fer.oop.homework_05.vehicles;
 
-public class CargoVan extends Van {
+public class CargoVan extends Van implements CargoVehicle {
     private double maxSpace;
 
     public CargoVan(String registrationNo, String model, double height, double maxSpace) {
