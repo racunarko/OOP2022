@@ -1,4 +1,4 @@
-package hr.fer.oop.homework_05;
+package hr.fer.oop.homework_05.devices;
 
 public class Laptop extends Computer implements Portable{
     private int batteryCapacity;

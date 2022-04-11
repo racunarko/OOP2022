@@ -1,4 +1,4 @@
-package hr.fer.oop.homework_05;
+package hr.fer.oop.homework_05.devices;
 
 public class Main {
     public static void main(String[] args) {

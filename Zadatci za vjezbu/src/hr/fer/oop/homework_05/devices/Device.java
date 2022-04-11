@@ -1,4 +1,4 @@
-package hr.fer.oop.homework_05;
+package hr.fer.oop.homework_05.devices;
 
 // this class doesn't have to be abstract
 public class Device {

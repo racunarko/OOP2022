@@ -1,4 +1,4 @@
-package hr.fer.oop.homework_05;
+package hr.fer.oop.homework_05.devices;
 
 public final class Netbook extends Laptop{
 
