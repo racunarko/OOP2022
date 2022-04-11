@@ -1,6 +1,6 @@
 package hr.fer.oop.homework_05;
 
-public class Computer {
+public abstract class Computer {
     private String model;
     private String manufacturer;
     private String operatingSystem;
@@ -39,4 +39,8 @@ public class Computer {
     public String toString() {
         return model + ", manufacturer=" + manufacturer + ", operatingSystem=" + operatingSystem;
     }
+
+    public abstract String getComputerType();
+
+    public abstract int calculatePortabilityScore();
 }
