@@ -1,6 +1,6 @@
 package hr.fer.oop.homework_05;
 
-public class Laptop extends Computer{
+public class Laptop extends Computer implements Portable{
     private int batteryCapacity;
     private double weight;
 

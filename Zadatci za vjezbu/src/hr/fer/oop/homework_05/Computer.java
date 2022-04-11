@@ -1,30 +1,12 @@
 package hr.fer.oop.homework_05;
 
-public abstract class Computer {
-    private String model;
-    private String manufacturer;
+public abstract class Computer extends Device{
+
     private String operatingSystem;
 
     public Computer(String model, String manufacturer, String operatingSystem) {
-        this.model = model;
-        this.manufacturer = manufacturer;
+        super(model, manufacturer);
         this.operatingSystem = operatingSystem;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public String getManufacturer() {
-        return manufacturer;
-    }
-
-    public void setManufacturer(String manufacturer) {
-        this.manufacturer = manufacturer;
     }
 
     public String getOperatingSystem() {
@@ -37,7 +19,7 @@ public abstract class Computer {
 
     @Override
     public String toString() {
-        return model + ", manufacturer=" + manufacturer + ", operatingSystem=" + operatingSystem;
+        return super.toString() + ", operatingSystem=" + operatingSystem;
     }
 
     public abstract String getComputerType();
