@@ -8,6 +8,14 @@ public class Desktop extends Computer{
         this.caseHeight = caseHeight;
     }
 
+    public double getCaseHeight() {
+        return caseHeight;
+    }
+
+    public void setCaseHeight(double caseHeight) {
+        this.caseHeight = caseHeight;
+    }
+
     @Override
     public String toString() {
         return super.toString() + ", caseHeight=" + caseHeight;
