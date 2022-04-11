@@ -8,12 +8,12 @@ public class Main {
 //        System.out.println(pc);
         System.out.println(laptop);
         System.out.println(desktop);
-    }
 
-    Computer n = new Netbook("Ideapad S12", "Lenovo", "Windows", 50, 1.55);
-    System.out.println(n);
-    System.out.println(n.getComputerType());
-    System.out.println(n.calculatePortabilityScore());
-    Laptop l = (Laptop) n;
-    System.out.println(l.calculatePortabilityScore());
+        Computer n = new Netbook("Ideapad S12", "Lenovo", "Windows", 50, 1.55);
+        System.out.println(n);
+        System.out.println(n.getComputerType());
+        System.out.println(n.calculatePortabilityScore());
+        Laptop l = (Laptop) n;
+        System.out.println(l.calculatePortabilityScore());
+    }
 }

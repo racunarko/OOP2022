@@ -8,7 +8,7 @@ public final class Netbook extends Laptop {
 
     @Override
     public String getComputerType() {
-        return "netbook laptop computer";
+        return "netbook " + super.getComputerType();
     }
 
     @Override
