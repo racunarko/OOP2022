@@ -1,6 +1,6 @@
 package hr.fer.oop.homework_05.vehicles;
 
-public class Vehicle {
+public abstract class Vehicle {
     private String registrationNo;
     private String model;
 
