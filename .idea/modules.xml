@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Auditorne/Auditorne.iml" filepath="$PROJECT_DIR$/Auditorne/Auditorne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ispiti/Ispiti.iml" filepath="$PROJECT_DIR$/Ispiti/Ispiti.iml" />
       <module fileurl="file://$PROJECT_DIR$/Laboratorijske vjezbe/Laboratorijske vjezbe.iml" filepath="$PROJECT_DIR$/Laboratorijske vjezbe/Laboratorijske vjezbe.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OOP.iml" filepath="$PROJECT_DIR$/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP2022.iml" filepath="$PROJECT_DIR$/OOP2022.iml" />
       <module fileurl="file://$PROJECT_DIR$/Predavanja/Predavanja.iml" filepath="$PROJECT_DIR$/Predavanja/Predavanja.iml" />
       <module fileurl="file://$PROJECT_DIR$/Samostalne vjezbe/Samostalne vjezbe.iml" filepath="$PROJECT_DIR$/Samostalne vjezbe/Samostalne vjezbe.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zadatci za vjezbu/Zadatci za vjezbu.iml" filepath="$PROJECT_DIR$/Zadatci za vjezbu/Zadatci za vjezbu.iml" />
