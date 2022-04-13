@@ -11,11 +11,11 @@ class Button {
 
     public void click() {
         if(state) {
-            capability.turnOn(state);
+            capability.turnOn(true);
             state = false;
         }
         else {
-            capability.turnOn(state);
+            capability.turnOn(false);
             state = true;
         }
   }
