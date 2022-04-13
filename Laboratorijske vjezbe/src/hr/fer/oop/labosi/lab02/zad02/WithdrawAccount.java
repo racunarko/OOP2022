@@ -19,8 +19,7 @@ class WithdrawAccount extends Account {
 
     @Override
     public void withdraw(double amount) {
-        setBalance(getBalance() - amount);
-        setTransactions(getTransactions() + 1);
+        super.withdraw(amount);
         withdrawCounter++;
     }
 

@@ -12,8 +12,7 @@ class VipAccount extends Account{
         if(amount > 10000) {
             amount += 10;
         }
-        setBalance(getBalance() + amount);
-        setTransactions(getTransactions() + 1);
+        super.withdraw(amount);
     }
 
     @Override
