@@ -29,5 +29,6 @@ class WithdrawAccount extends Account {
             withdraw(0.1 * withdrawCounter);
         }
         withdrawCounter = 0;
+        //super.withdraw(amount > 10000 ? amount + 10 : amount);
     }
 }
