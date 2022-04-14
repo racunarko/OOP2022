@@ -1,5 +1,6 @@
 package hr.fer.oop.labosi.lab02.zad02;
 
+
 class WithdrawAccount extends Account {
 
     private int withdrawCounter;
