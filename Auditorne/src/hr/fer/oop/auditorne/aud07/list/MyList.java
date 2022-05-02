@@ -61,7 +61,7 @@ public class MyList<T> {
         return count;
     }
 
-    void print() {
+    public void print() {
         MyListElement<T> current = head;
         while (current != null) {
             System.out.printf(" ---> %s", current.getContent().toString());
