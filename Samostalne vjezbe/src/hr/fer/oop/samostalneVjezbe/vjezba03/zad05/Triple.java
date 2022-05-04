@@ -33,7 +33,7 @@ public class Triple<T> {
     }
 
     public void setElement(int select, T value) throws IllegalArgumentException {
-        if (select != 1 && select != 2 && select !=3 && value != null) {
+        if (select != 1 && select != 2 && select !=3 || value == null) {
             throw new IllegalArgumentException();
         }
         switch (select) {

@@ -28,11 +28,13 @@ public class Items<T> extends Artikl<T> {
     @Override
     public double getPrice() {
         double price = 0;
-        if (getType() == Type.ITEM) {
-            price = quantity * getPricing();
-        }
-        else if (getType() == Type.KG) {
-            price = getPricing() * quantity / 1000;
+        switch (getType()) {
+            case ITEM -> {
+                price = quantity * getPricing();
+            }
+            case KG -> {
+                price = getPricing() * quantity / 1000;
+            }
         }
         return price;
     }
