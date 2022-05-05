@@ -1,0 +1,93 @@
+Testing group: Checking class declarations
+  Checking that enumeration with names 'hr.fer.oop.mtexam.task2.CryptocurrencyType' exists
+    false
+  --> Reducing 20%
+Testing group: Checking class declarations
+  Checking that class with name 'hr.fer.oop.mtexam.task2.Cryptocurrency' exists
+    false
+  Checking that class with name 'hr.fer.oop.mtexam.task2.Cryptocurrency' is package private
+    false
+  --> Reducing 20%
+Testing group: Checking constructors
+  Declaration of 'Cryptocurrency' constructor
+    Constructor declaration is wrong.
+  --> Reducing 10%
+Testing group: Checking class fields
+  Declaration of 'type' field
+    Field declaration is wrong.
+  Declaration of 'exchangeRate' field
+    Field declaration is wrong.
+  --> Reducing 10%
+Testing group: Checking class declarations
+  Checking that class with name 'hr.fer.oop.mtexam.task2.NFT' is package private
+    false
+  Checking that class with name 'hr.fer.oop.mtexam.task2.NFT' exists
+    false
+  --> Reducing 20%
+Testing group: Checking constructors
+  Declaration of 'NFT' constructor
+    Constructor declaration is wrong.
+  --> Reducing 10%
+Testing group: Checking class declarations
+  Checking that class with name 'hr.fer.oop.mtexam.task2.Token' is package private
+    false
+  Checking that class with name 'hr.fer.oop.mtexam.task2.Token' exists
+    false
+  --> Reducing 20%
+Testing group: Checking constructors
+  Declaration of 'Token' constructor
+    Constructor declaration is wrong.
+  --> Reducing 10%
+Testing group: Checking class fields
+  Declaration of 'amount' field
+    Field declaration is wrong.
+  Declaration of 'name' field
+    Field declaration is wrong.
+  --> Reducing 10%
+Testing group: Checking class declarations
+  Checking that class with name 'hr.fer.oop.mtexam.task2.Wallet' exists
+    false
+  Checking that class with name 'hr.fer.oop.mtexam.task2.Wallet' is package private
+    false
+  --> Reducing 20%
+Testing group: Checking constructors
+  Declaration of 'Wallet' constructor
+    Constructor declaration is wrong.
+  --> Reducing 10%
+Testing group: Checking class fields
+  Declaration of 'tokens' field
+    Filed declaration is wrong.
+  --> Reducing 10%
+Testing group: Checking functionality
+  Checking value of 'exchangeRate' field
+    Field 'exchangeRate' is out of defined range.
+  --> Reducing 10%
+Testing group: Checking functionality
+  Testing 'toString' method in 'NFT' class
+    Something is wrong with 'toString' method.
+  Testing 'toString' method in 'Cryptocurrency' class
+    Something is wrong with 'toString' method.
+  --> Reducing 10%
+Testing group: Checking getters and setters
+  Declaration of 'getTokens' method in 'Wallet' class
+    Something is wrong with getters and/or setters.
+  Declaration of 'getTokenType' method in 'Cryptocurrency' class
+    Something is wrong with getters and/or setters.
+  Testing getters and setters in 'NFT' class
+    Something is wrong with getters and/or setters.
+  Declaration of 'getTokenType' method in 'NFT' class
+    Something is wrong with getters and/or setters.
+  Testing getters and setters in 'Cryptocurrency' class
+    Something is wrong with getters and/or setters.
+  Declaration of 'getCount' method in 'Wallet' class
+    Something is wrong with getters and/or setters.
+  Declaration of 'getType' method
+    Something is wrong with getters and/or setters.
+  --> Reducing 10%
+Testing group: Checking class inheritance/interfaces
+  Testing instanceof
+    Something is wrong with interface implementations and/or class inheritance.
+  Testing instanceof
+    Something is wrong with interface implementations and/or class inheritance.
+  --> Reducing 20%
+Total percent: 0%
