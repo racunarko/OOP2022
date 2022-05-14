@@ -1,9 +1,7 @@
 package hr.fer.oop.pred10;
 
-import jdk.jfr.FlightRecorder;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
