@@ -24,7 +24,5 @@ public class ArrayListMain {
         array.set(array.size() - 1, 2); // postavlja odredeni clan na neku vrijednost
         System.out.println(array.size() + " " + array.get(array.size() - 1));
 
-
-
     }
 }
