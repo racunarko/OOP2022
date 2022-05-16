@@ -1,0 +1,4 @@
+ATE;eat;tea
+dirty room;dormitory
+listen;silent
+fire
