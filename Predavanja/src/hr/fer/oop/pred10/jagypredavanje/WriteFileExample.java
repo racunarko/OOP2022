@@ -1,4 +1,4 @@
-package hr.fer.oop.pred10;
+package hr.fer.oop.pred10.jagypredavanje;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -6,7 +6,7 @@ import java.nio.file.Path;
 
 public class WriteFileExample {
     public static void main(String[] args) throws IOException {
-        Path p = Path.of("/Users/dominik/IdeaProjects/OOP2022/Predavanja/src/hr/fer/oop/pred10/proba.txt");
+        Path p = Path.of("Predavanja/src/hr/fer/oop/pred10/jagypredavanje/proba.txt");
 
 //        //PrintWriter
 //        PrintWriter writer = new PrintWriter(p.toFile());

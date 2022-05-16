@@ -1,4 +1,4 @@
-package hr.fer.oop.pred10;
+package hr.fer.oop.pred10.jagypredavanje;
 
 
 import java.io.File;
@@ -10,8 +10,8 @@ import java.util.Scanner;
 
 public class ReadFileExample {
     public static void main(String[] args) throws IOException {
-        File f = new File("/Users/dominik/IdeaProjects/OOP2022/Predavanja/src/hr/fer/oop/pred10/lyrics.txt");
-        Path p = Path.of("/Users/dominik/IdeaProjects/OOP2022/Predavanja/src/hr/fer/oop/pred10/lyrics.txt");
+        File f = new File("Predavanja/src/hr/fer/oop/pred10/jagypredavanje/proba.txt");
+        Path p = Path.of("Predavanja/src/hr/fer/oop/pred10/jagypredavanje/proba.txt");
 
         Path p2 = f.toPath();
         File f2 = p.toFile();
