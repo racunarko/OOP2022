@@ -21,8 +21,13 @@ class JavaProjectFileVisitor extends SimpleFileVisitor<Path> {
         int index = filename.lastIndexOf(".");
         if (index != -1) {
             String extension = filename.substring(index);
+
             Long size = map.getOrDefault(extension, (long)0);
             map.put(extension, size + attrs.size());
+//            if(map.get(extension) == null) {
+//                map.put(extension, attrs.size());
+//            }
+//            map.put(extension, map.get(extension) + attrs.size());
         }
         return FileVisitResult.CONTINUE;
     }
