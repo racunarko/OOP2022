@@ -51,9 +51,9 @@ class JavaProjectFileVisitor extends SimpleFileVisitor<Path> {
 
     @Override
     public FileVisitResult postVisitDirectory(Path dir, IOException exc) throws IOException {
-        List<String> files = new ArrayList<>(List.of(Objects.requireNonNull(dir.toFile().list())));
-        files.removeIf(file -> !file.contains(extensionFilter));
-        directories.put(dir, files.size());
+        List<String> files = new ArrayList<>(List.of(Objects.requireNonNull(dir.toFile().list()))); // spremam sve fileove iz direktorija u listu
+        files.removeIf(file -> !file.contains(extensionFilter)); // filtriram fileove po ekstenziji
+        directories.put(dir, files.size()); // stavljam direktorij u mapu uz vrijednost (broj fileova s tom ekstenzijom)
         return super.postVisitDirectory(dir, exc);
     }
 
