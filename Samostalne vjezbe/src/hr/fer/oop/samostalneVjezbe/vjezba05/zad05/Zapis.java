@@ -1,8 +1,6 @@
 package hr.fer.oop.samostalneVjezbe.vjezba05.zad05;
 
-import java.util.Comparator;
-
-class Zapis {
+class Zapis implements Comparable<Zapis>{
     String ime;
     Integer bodovi;
 
@@ -11,10 +9,23 @@ class Zapis {
     }
 
     // Dovršiti
-
-
     public Zapis(String ime, Integer bodovi) {
         this.ime = ime;
         this.bodovi = bodovi;
+    }
+    @Override
+    public int compareTo(Zapis o) {
+        return this.ime.compareTo(o.ime);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(!(obj instanceof Zapis other)) return false;
+        return this.ime.equals(other.ime);
     }
 }
