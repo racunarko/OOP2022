@@ -25,5 +25,3 @@ abstract class Game {
         return name + ":" + rating;
     }
 }
-
-
