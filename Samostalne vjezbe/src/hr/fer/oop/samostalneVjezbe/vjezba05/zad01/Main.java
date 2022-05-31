@@ -10,7 +10,7 @@ public class Main {
                 5,
                 x->x%2==0,
                 (x,y)->x*y));
-        System.out.println(myFilterReduce(Arrays.asList("fer", "oop", "java", "javadoc"),
+        System.out.println(myFilterReduce(Arrays.asList("fer", "oop", "java", "javadoc", "javacode"),
                 "both begin with j.",
                 x -> x.startsWith("j"),
                 (x,y) -> y + " " + x));
